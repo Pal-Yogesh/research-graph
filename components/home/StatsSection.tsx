@@ -37,7 +37,7 @@ export default function StatsSection() {
             Do You Have the Full View?
           </h2>
           <p className="text-xl text-white/80 leading-relaxed">
-            ResearchGraph's ecosystem of data, emerging tech, AI and experts delivers the most complete and clear
+            Research's ecosystem of data, emerging tech, AI and experts delivers the most complete and clear
             understanding of consumer behavior that reveals new pathways to growth.
           </p>
         </motion.div>

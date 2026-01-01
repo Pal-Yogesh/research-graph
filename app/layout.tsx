@@ -18,7 +18,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ResearchGraph Pvt Ltd - Turning Data into Decisions",
+  title: "Research Pvt Ltd - Turning Data into Decisions",
   description:
     "Leading market research company specializing in survey programming, data processing, analytics, field management, and comprehensive research support.",
   generator: "v0.app",

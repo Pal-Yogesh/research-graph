@@ -39,14 +39,14 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-4">
               <div className="relative w-10 h-10">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D560BAQEjtJeKfyDl5A/company-logo_200_200/B56Zok0J_2JsAM-/0/1761554244019/researchgraph_pvt_ltd_logo"
-                  alt="ResearchGraph"
+                  src="https://media.licdn.com/dms/image/v2/D560BAQEjtJeKfyDl5A/company-logo_200_200/B56Zok0J_2JsAM-/0/1761554244019/Research_pvt_ltd_logo"
+                  alt="Research"
                   fill
                   className="object-contain"
                 />
               </div>
               <div>
-                <h3 className="font-space-grotesk text-lg font-bold">ResearchGraph</h3>
+                <h3 className="font-space-grotesk text-lg font-bold">Research</h3>
                 <p className="text-xs text-muted-foreground">Turning Data into Decisions</p>
               </div>
             </Link>
@@ -144,15 +144,15 @@ export default function Footer() {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {new Date().getFullYear()} ResearchGraph Pvt Ltd. All rights reserved.
+              © {new Date().getFullYear()} Research Pvt Ltd. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
               <a
-                href="mailto:contact@researchgraph.com"
+                href="mailto:contact@Research.com"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
                 <Mail size={14} />
-                contact@researchgraph.com
+                contact@Research.com
               </a>
               <a href="tel:+1234567890" className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Phone size={14} />

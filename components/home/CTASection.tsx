@@ -33,7 +33,7 @@ export default function CTASection() {
             Ready to Transform Your Market Research?
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-            Partner with ResearchGraph to unlock powerful insights and drive data-driven decisions for your business
+            Partner with Research to unlock powerful insights and drive data-driven decisions for your business
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

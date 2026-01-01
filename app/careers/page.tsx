@@ -134,7 +134,7 @@ export default function CareersPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Why ResearchGraph?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Why Research?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Join a company that values your growth, well-being, and contributions
             </p>
@@ -164,7 +164,7 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Life at ResearchGraph */}
+      {/* Life at Research */}
       <section className="py-24 overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div
@@ -174,7 +174,7 @@ export default function CareersPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Life at ResearchGraph</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Life at Research</h2>
           </motion.div>
 
           <motion.div

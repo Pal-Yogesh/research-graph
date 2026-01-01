@@ -47,13 +47,13 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 group">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D560BAQEjtJeKfyDl5A/company-logo_200_200/B56Zok0J_2JsAM-/0/1761554244019/researchgraph_pvt_ltd_logo?e=1767225600&v=beta&t=SKAqeijRfOa-VNVLWdJ5JZ7K_UdfEqxcFM17GjZt40Q"
-                alt="ResearchGraph Logo"
+                src="https://media.licdn.com/dms/image/v2/D560BAQEjtJeKfyDl5A/company-logo_200_200/B56Zok0J_2JsAM-/0/1761554244019/Research_pvt_ltd_logo?e=1767225600&v=beta&t=SKAqeijRfOa-VNVLWdJ5JZ7K_UdfEqxcFM17GjZt40Q"
+                alt="Research Logo"
                 width={40}
                 height={40}
                 className="transition-transform group-hover:scale-110"
               />
-              <div className="font-space-grotesk text-xl md:text-2xl font-bold text-card-foreground">ResearchGraph</div>
+              <div className="font-space-grotesk text-xl md:text-2xl font-bold text-card-foreground">Research</div>
             </Link>
 
             {/* Desktop Navigation */}

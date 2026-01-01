@@ -10,7 +10,7 @@ const offices = [
     city: "New York, NY 10001",
     country: "United States",
     phone: "+1 (234) 567-890",
-    email: "ny@researchgraph.com",
+    email: "ny@Research.com",
   },
   {
     name: "European Office",
@@ -18,7 +18,7 @@ const offices = [
     city: "London, EC2M 4AE",
     country: "United Kingdom",
     phone: "+44 20 1234 5678",
-    email: "london@researchgraph.com",
+    email: "london@Research.com",
   },
   {
     name: "Asia Pacific Office",
@@ -26,7 +26,7 @@ const offices = [
     city: "Singapore 018956",
     country: "Singapore",
     phone: "+65 1234 5678",
-    email: "singapore@researchgraph.com",
+    email: "singapore@Research.com",
   },
 ]
 
@@ -120,7 +120,7 @@ export default function AddressPage() {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex justify-between border-b border-border pb-3">
                 <span className="font-medium">Registered Company Name</span>
-                <span className="text-right">ResearchGraph Pvt Ltd</span>
+                <span className="text-right">Research Pvt Ltd</span>
               </div>
               <div className="flex justify-between border-b border-border pb-3">
                 <span className="font-medium">Registration Number</span>

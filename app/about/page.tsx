@@ -46,7 +46,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">About ResearchGraph</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">About Research</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               We are a leading market research company specializing in transforming complex data into clear, actionable
               insights that drive business success across industries and markets.
@@ -68,7 +68,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 font-space-grotesk">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded with a vision to revolutionize market research, ResearchGraph has grown into a trusted partner
+                  Founded with a vision to revolutionize market research, Research has grown into a trusted partner
                   for businesses seeking data-driven decision-making capabilities.
                 </p>
                 <p>

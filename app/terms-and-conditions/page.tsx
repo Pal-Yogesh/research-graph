@@ -38,7 +38,7 @@ export default function TermsAndConditionsPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">1. Acceptance of Terms</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  By accessing and using ResearchGraph's services, you accept and agree to be bound by the terms and
+                  By accessing and using Research's services, you accept and agree to be bound by the terms and
                   provisions of this agreement. If you do not agree to these terms, please do not use our services.
                 </p>
               </section>
@@ -46,7 +46,7 @@ export default function TermsAndConditionsPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">2. Services Description</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  ResearchGraph provides market research services including survey programming, data processing and
+                  Research provides market research services including survey programming, data processing and
                   analytics, field management, and comprehensive research support. All services are subject to
                   availability and our standard service terms.
                 </p>
@@ -68,7 +68,7 @@ export default function TermsAndConditionsPage() {
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">4. Intellectual Property</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   All content, trademarks, and data on this website, including but not limited to software, databases,
-                  text, graphics, icons, and hyperlinks, are the property of or licensed to ResearchGraph and are
+                  text, graphics, icons, and hyperlinks, are the property of or licensed to Research and are
                   protected by law.
                 </p>
               </section>
@@ -92,7 +92,7 @@ export default function TermsAndConditionsPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">7. Limitation of Liability</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  ResearchGraph shall not be liable for any indirect, incidental, special, consequential, or punitive
+                  Research shall not be liable for any indirect, incidental, special, consequential, or punitive
                   damages resulting from your use of our services, even if we have been advised of the possibility of
                   such damages.
                 </p>
@@ -117,7 +117,7 @@ export default function TermsAndConditionsPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">10. Contact Information</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  For questions about these Terms and Conditions, please contact us at legal@researchgraph.com or
+                  For questions about these Terms and Conditions, please contact us at legal@Research.com or
                   through our contact page.
                 </p>
               </section>

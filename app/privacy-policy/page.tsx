@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">1. Introduction</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  ResearchGraph Pvt Ltd ("we", "our", or "us") is committed to protecting your privacy. This Privacy
+                  Research Pvt Ltd ("we", "our", or "us") is committed to protecting your privacy. This Privacy
                   Policy explains how we collect, use, disclose, and safeguard your information when you visit our
                   website or use our services.
                 </p>
@@ -102,7 +102,7 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2 className="text-2xl font-bold mb-4 font-space-grotesk">7. Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  If you have questions about this Privacy Policy, please contact us at privacy@researchgraph.com or
+                  If you have questions about this Privacy Policy, please contact us at privacy@Research.com or
                   through our contact page.
                 </p>
               </section>

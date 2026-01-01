@@ -19,12 +19,12 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-sm font-bold text-[oklch(0.60_0.12_195)] mb-4 uppercase tracking-wider">About ResearchGraph</h2>
+            <h2 className="text-sm font-bold text-[oklch(0.60_0.12_195)] mb-4 uppercase tracking-wider">About Research</h2>
             <h3 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6 leading-tight font-space-grotesk">
               Transforming Markets Through Data Intelligence
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              ResearchGraph Pvt Ltd is a leading market research company delivering reliable information for a true
+              Research Pvt Ltd is a leading market research company delivering reliable information for a true
               understanding of Society, Markets, and People. We help organizations make better decisions through
               comprehensive data analysis and insights.
             </p>
