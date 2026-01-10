@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Mail, Phone, Linkedin, Twitter } from "lucide-react"
+import { Mail, Phone, Linkedin, Twitter, Instagram } from "lucide-react"
 
 export default function Footer() {
   const footerLinks = {
@@ -11,16 +11,16 @@ export default function Footer() {
       { label: "About Us", href: "/about" },
       { label: "Vision", href: "/vision" },
       { label: "Mission", href: "/mission" },
-      { label: "Careers", href: "/careers" },
+      // { label: "Careers", href: "/careers" },
     ],
     services: [
-      { label: "Survey Programming", href: "/services#survey" },
-      { label: "Data Processing", href: "/services#data" },
-      { label: "Field Management", href: "/services#field" },
-      { label: "Market Research", href: "/services#research" },
+      { label: "Digital IPs", href: "/services#survey" },
+      { label: "Influencer Marketing", href: "/services#data" },
+      { label: "Talent Management", href: "/services#field" },
+      { label: "Monk-E Studios", href: "/services#research" },
     ],
     resources: [
-      { label: "Catalogue", href: "/catalogue" },
+      // { label: "Catalogue", href: "/catalogue" },
       { label: "Contact", href: "/contact" },
       { label: "Address", href: "/address" },
     ],
@@ -39,10 +39,10 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-4">
               <div className="relative w-10 h-10">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D560BAQEjtJeKfyDl5A/company-logo_200_200/B56Zok0J_2JsAM-/0/1761554244019/Research_pvt_ltd_logo"
+                  src="logo2.JPEG"
                   alt="Research"
                   fill
-                  className="object-contain"
+                  className="object-contain rounded-full"
                 />
               </div>
               <div>
@@ -65,11 +65,11 @@ export default function Footer() {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
-                href="#"
+                href="https://www.instagram.com/flufex_connect/"
                 className="w-8 h-8 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="Instagram"
               >
-                <Twitter size={16} />
+                <Instagram size={16} />
               </motion.a>
             </div>
           </div>
@@ -144,19 +144,19 @@ export default function Footer() {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {new Date().getFullYear()} Research Pvt Ltd. All rights reserved.
+              © {new Date().getFullYear()} Flufex Connect. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
               <a
-                href="mailto:contact@Research.com"
+                href="mailto:prabhat@flufexconnect.com"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
                 <Mail size={14} />
-                contact@Research.com
+                prabhat@flufexconnect.com
               </a>
-              <a href="tel:+1234567890" className="flex items-center gap-2 hover:text-foreground transition-colors">
+              <a href="tel:+91 8987672664" className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Phone size={14} />
-                +1 (234) 567-890
+                +91 8987672664
               </a>
             </div>
           </div>
