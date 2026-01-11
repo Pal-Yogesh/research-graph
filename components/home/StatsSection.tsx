@@ -10,10 +10,10 @@ export default function StatsSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const stats = [
-    { value: "90+", label: "Countries Measuring", desc: "$7.2T of global consumer spending" },
-    { value: "177M", label: "Products Covered", desc: "From more than 2.1M stores" },
-    { value: "1,800+", label: "Categories", desc: "Covering FMCG, Tech & Durables, and more" },
-    { value: "3.1T", label: "Data Records", desc: "Processed per week" },
+    { value: "50+", label: "Clients", desc: "Trusted by leading brands and businesses" },
+    { value: "500+", label: "Projects Delivered", desc: "Completed successfully" },
+    { value: "1,000+", label: "Expert Team", desc: "Talented professionals" },
+    { value: "100%", label: "Expertise", desc: "In market research, data analytics, and more" },
   ]
 
   return (

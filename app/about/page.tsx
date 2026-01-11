@@ -92,9 +92,9 @@ export default function AboutPage() {
               <div className="glass p-8 rounded-3xl">
                 <div className="grid grid-cols-2 gap-6">
                   {[
-                    { value: "10+", label: "Years Experience" },
+                    { value: "5+", label: "Years Experience" },
                     { value: "500+", label: "Projects Delivered" },
-                    { value: "50+", label: "Countries" },
+                    { value: "50+", label: "Clients" },
                     { value: "100+", label: "Expert Team" },
                   ].map((stat, index) => (
                     <motion.div

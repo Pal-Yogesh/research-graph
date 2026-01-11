@@ -57,7 +57,7 @@ export default function Footer() {
             <div className="flex gap-4">
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
-                href="#"
+                href="https://www.linkedin.com/company/flufex-connect/"
                 className="w-8 h-8 rounded-full bg-secondary flex items-center justify-center hover:bg-primary transition-colors"
                 aria-label="LinkedIn"
               >

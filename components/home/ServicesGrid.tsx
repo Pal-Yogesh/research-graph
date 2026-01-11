@@ -4,33 +4,33 @@ import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 import Link from "next/link"
-import { ArrowRight, Code2, Database, Users, TrendingUp } from "lucide-react"
+import { ArrowRight, Users, TrendingUp, MapPin, Diamond } from "lucide-react"
 
 const services = [
   {
-    icon: Code2,
-    title: "Survey Programming",
+    icon: Diamond,
+    title: "Digital IPs",
     description:
-      "Advanced survey design and programming using industry-leading platforms like Confirmit, Decipher, and Qualtrics.",
+      "Create engaging and authentic digital content for brands and businesses.",
     color: "oklch(0.35 0.08 240)",
   },
   {
-    icon: Database,
-    title: "Data Processing",
+    icon: MapPin,
+    title: "Influencer Marketing",
     description:
-      "Comprehensive data cleaning, coding, tabulation, and validation with meticulous attention to quality.",
+      "Find and engage with the right influencers to promote your brand or product.",
     color: "oklch(0.60 0.12 195)",
   },
   {
     icon: Users,
-    title: "Field Management",
-    description: "End-to-end fieldwork coordination, sample management, and quality control across global markets.",
+    title: "Talent Management",
+    description: "Find and manage the right talent for your brand or product.",
     color: "oklch(0.55 0.10 200)",
   },
   {
     icon: TrendingUp,
-    title: "Analytics & Insights",
-    description: "Transform raw data into actionable insights with advanced statistical analysis and visualization.",
+    title: "Monk-E Studios",
+    description: "Create engaging and authentic video content for brands and businesses.",
     color: "oklch(0.40 0.09 230)",
   },
 ]

@@ -88,7 +88,7 @@ export default function ProcessTimeline() {
             <div
               ref={progressRef}
               className="h-full bg-[oklch(0.60_0.12_195)] origin-left"
-              style={{ scaleX: 0 }}
+              // style={{ scaleX: 0 }}
             />
           </div>
 

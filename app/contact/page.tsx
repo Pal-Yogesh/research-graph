@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "contact@Research.com",
-    href: "mailto:contact@Research.com",
+    value: "prabhat@flufexconnect.com",
+    href: "mailto:prabhat@flufexconnect.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (234) 567-890",
-    href: "tel:+1234567890",
+    value: "+91 8987672664",
+    href: "tel:+91 8987672664",
   },
   {
     icon: MapPin,
     label: "Address",
-    value: "Visit our Address page for locations",
+    value: "606,6TH FLOOR ESTATE PLAZA HB ROAD, Kantatoli, Ranchi, Ranchi- 834001, Jharkhand",
     href: "/address",
   },
 ]
