@@ -120,19 +120,19 @@ export default function AddressPage() {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex justify-between border-b border-border pb-3">
                 <span className="font-medium">Registered Company Name</span>
-                <span className="text-right">Flufex Connect Pvt Ltd</span>
+                <span className="text-right">Flufex Connect</span>
               </div>
               <div className="flex justify-between border-b border-border pb-3">
-                <span className="font-medium">Registration Number</span>
-                <span className="text-right">12345678</span>
+                <span className="font-medium">GST Number</span>
+                <span className="text-right">20AANCB3666P1Z9</span>
               </div>
-              <div className="flex justify-between border-b border-border pb-3">
+              {/* <div className="flex justify-between border-b border-border pb-3">
                 <span className="font-medium">Tax ID</span>
                 <span className="text-right">XX-XXXXXXX</span>
-              </div>
+              </div> */}
               <div className="flex justify-between">
                 <span className="font-medium">Year Established</span>
-                <span className="text-right">2014</span>
+                <span className="text-right">2025</span>
               </div>
             </div>
           </motion.div>
