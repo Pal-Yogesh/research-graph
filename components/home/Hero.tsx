@@ -105,10 +105,10 @@ export default function Hero() {
               className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
             >
               {[
-                { value: "100K+", label: "Survey Responses" },
+                { value: "50K+", label: "Survey Responses" },
                 { value: "50+", label: "Global Markets" },
-                { value: "95%", label: "Client Satisfaction" },
-                { value: "10M+", label: "Data Points" },
+                { value: "90%", label: "Client Satisfaction" },
+                { value: "500K+", label: "Data Points" },
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}
