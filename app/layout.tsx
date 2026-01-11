@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Flufex Connect",
   description:
     "Leading market research company specializing in survey programming, data processing, analytics, field management, and comprehensive research support.",
-  generator: "v0.app",
+  generator: "flufex-connect.app",
   icons: {
     icon: "/logo2.JPEG",
    
