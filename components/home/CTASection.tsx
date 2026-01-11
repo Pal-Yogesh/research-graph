@@ -30,10 +30,10 @@ export default function CTASection() {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight font-space-grotesk">
-            Ready to Transform Your Market Research?
+            Ready to Transform Your Digital Presence?
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-            Partner with Research to unlock powerful insights and drive data-driven decisions for your business
+            Partner with us to create impactful campaigns that resonate with your audience and drive real business results
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

@@ -12,7 +12,7 @@ export default function Home() {
       <AboutSection />
       <ServicesGrid />
       <StatsSection />
-      <InsightsSection />
+      {/* <InsightsSection /> */}
       <CTASection />
     </div>
   )

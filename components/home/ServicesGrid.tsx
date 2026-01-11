@@ -11,26 +11,26 @@ const services = [
     icon: Diamond,
     title: "Digital IPs",
     description:
-      "Create engaging and authentic digital content for brands and businesses.",
+      "Build powerful digital intellectual properties that resonate with your audience. From branded content series to social media campaigns, we create digital assets that drive engagement and brand loyalty.",
     color: "oklch(0.35 0.08 240)",
   },
   {
-    icon: MapPin,
+    icon: TrendingUp,
     title: "Influencer Marketing",
     description:
-      "Find and engage with the right influencers to promote your brand or product.",
+      "Connect with the right influencers to amplify your brand message. We manage end-to-end influencer campaigns from identification to execution, ensuring authentic partnerships that deliver results.",
     color: "oklch(0.60 0.12 195)",
   },
   {
     icon: Users,
     title: "Talent Management",
-    description: "Find and manage the right talent for your brand or product.",
+    description: "Comprehensive talent representation and management services. We nurture and promote content creators, helping them grow their personal brand while partnering with the right opportunities.",
     color: "oklch(0.55 0.10 200)",
   },
   {
-    icon: TrendingUp,
-    title: "Monk-E Studios",
-    description: "Create engaging and authentic video content for brands and businesses.",
+    icon: MapPin,
+    title: "End to End Edutainment Content Production",
+    description: "Premium content production that educates and entertains. From concept to post-production, we create engaging video content that captivates audiences and delivers your message effectively.",
     color: "oklch(0.40 0.09 230)",
   },
 ]
@@ -50,10 +50,10 @@ export default function ServicesGrid() {
         >
           <h2 className="text-sm font-bold text-[oklch(0.60_0.12_195)] mb-4 uppercase tracking-wider">Our Services</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6 font-space-grotesk">
-            Comprehensive Research Solutions
+            Complete Digital Marketing Solutions
           </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            End-to-end market research services powered by cutting-edge technology and deep industry expertise
+            Full-spectrum digital marketing services designed to amplify your brand presence and drive measurable results
           </p>
         </motion.div>
 

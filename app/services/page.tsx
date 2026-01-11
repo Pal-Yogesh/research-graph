@@ -8,70 +8,73 @@ import ProcessTimeline from "@/components/services/ProcessTimeline"
 
 const services = [
   {
-    id: "survey",
+    id: "digital-ips",
     icon: FileCode,
     title: "Digital IPs",
     description:
-      "Create engaging and authentic digital content for brands and businesses.",
+      "Create powerful digital intellectual properties that become synonymous with your brand. From branded content series to viral social campaigns, we develop digital assets that build long-term brand equity and audience loyalty.",
     features: [
-      "Branding and Logo Design",
-      "Social Media Content Creation",
-      "Video Content Creation",
-      "Graphic Design",
-      "Web Design",
+      "Branded Content Series Development",
+      "Social Media IP Creation",
+      "Digital Show Production",
+      "Viral Campaign Conceptualization",
+      "Brand Storytelling & Narrative Design",
+      "Cross-Platform Content Strategy",
+      "IP Rights Management",
     ],
     color: "oklch(0.35 0.08 240)",
   },
   {
-    id: "data",
+    id: "influencer-marketing",
     icon: BarChart3,
     title: "Influencer Marketing",
     description:
-      "Find and engage with the right influencers to promote your brand or product.",
+      "Strategic influencer partnerships that drive authentic engagement. We connect brands with the perfect influencer matches, manage campaigns end-to-end, and deliver measurable results across all major platforms.",
     features: [
-      "Influencer Identification",
-      "Influencer Engagement",
-      "Influencer Management",
-      "Influencer Collaboration",
-      "Influencer Partnership",
-      "Influencer Campaign",
-      "Influencer Campaign Management",
-      "Influencer Campaign Analysis",
-      "Influencer Campaign Reporting",
+      "Influencer Discovery & Vetting",
+      "Campaign Strategy & Planning",
+      "Contract Negotiation & Management",
+      "Content Approval & Quality Control",
+      "Performance Tracking & Analytics",
+      "Multi-Platform Campaign Execution",
+      "ROI Reporting & Optimization",
+      "Micro to Macro Influencer Network",
     ],
     color: "oklch(0.60 0.12 195)",
   },
   {
-    id: "field",
+    id: "talent-management",
     icon: MapPin,
     title: "Talent Management",
     description:
-      "Professional field operations management ensuring data quality, timely delivery, and cost-effectiveness across all markets.",
+      "Comprehensive representation and career development for digital content creators. We nurture talent, build their personal brands, and connect them with premium opportunities that align with their values and goals.",
     features: [
-      "Talent Identification",
-      "Talent Engagement",
-      "Talent Management",
-      "Talent Collaboration",
-      "Talent Partnership",
-      "Talent Campaign",
-      "Talent Campaign Management",
-      "Talent Campaign Analysis",
-      "Talent Campaign Reporting",
+      "Personal Brand Development",
+      "Career Strategy & Planning",
+      "Brand Partnership Opportunities",
+      "Contract Negotiation",
+      "Content Strategy Consultation",
+      "Media Training & PR Management",
+      "Financial & Legal Advisory",
+      "Growth & Monetization Support",
     ],
     color: "oklch(0.55 0.10 200)",
   },
   {
-    id: "research",
+    id: "content-production",
     icon: BookOpen,
-    title: "Monk-E Studios",
+    title: "End to End Edutainment Content Production",
     description:
-      "Comprehensive end-to-end research support from study design to final reporting, helping you make informed decisions.",
+      "Premium content that educates and entertains in equal measure. From concept to final delivery, we produce high-quality video content that captivates audiences while delivering valuable information and brand messages.",
     features: [
-      "Video Content Creation",
-      "Graphic Design",
-      "Web Design",
-      "Social Media Content Creation",
-      "Branding and Logo Design",
+      "Concept Development & Scripting",
+      "Video Production (Studio & On-Location)",
+      "Professional Editing & Post-Production",
+      "Animation & Motion Graphics",
+      "Educational Content Design",
+      "Entertainment Format Development",
+      "Multi-Language Content Creation",
+      "Distribution Strategy & Optimization",
     ],
     color: "oklch(0.40 0.09 230)",
   },
@@ -92,7 +95,7 @@ export default function ServicesPage() {
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">Our Services</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Comprehensive market research solutions designed to transform your data into strategic advantages
+              Complete digital marketing solutions from influencer partnerships to premium content production
             </p>
           </motion.div>
         </div>
@@ -109,11 +112,12 @@ export default function ServicesPage() {
             className="max-w-3xl mx-auto text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-space-grotesk">
-              Full-Cycle Market Research Solutions
+              360° Digital Marketing Excellence
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From initial research design to final insights delivery, we provide end-to-end support for all your market
-              research needs. Our integrated approach ensures quality, efficiency, and actionable results.
+              From strategy to execution, we provide comprehensive digital marketing services that help brands connect 
+              authentically with their audiences. Our integrated approach combines influencer marketing, talent management, 
+              and world-class content production to deliver campaigns that resonate and drive results.
             </p>
           </motion.div>
         </div>
@@ -191,7 +195,7 @@ export default function ServicesPage() {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Ready to get started?</h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Let's discuss how our services can help you achieve your research objectives
+              Let's discuss how our digital marketing expertise can elevate your brand
             </p>
             <Link href="/contact">
               <Button size="lg" className="glow-hover bg-primary hover:bg-primary/90">

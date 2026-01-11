@@ -10,10 +10,10 @@ export default function StatsSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const stats = [
-    { value: "50+", label: "Clients", desc: "Trusted by leading brands and businesses" },
-    { value: "500+", label: "Projects Delivered", desc: "Completed successfully" },
-    { value: "1,000+", label: "Expert Team", desc: "Talented professionals" },
-    { value: "100%", label: "Expertise", desc: "In market research, data analytics, and more" },
+    { value: "200+", label: "Brand Partners", desc: "Leading brands trust us globally" },
+    { value: "500+", label: "Campaigns Delivered", desc: "Successfully executed projects" },
+    { value: "1,000+", label: "Influencers Network", desc: "Talented content creators" },
+    { value: "50M+", label: "Total Reach", desc: "Combined audience across platforms" },
   ]
 
   return (
@@ -34,11 +34,11 @@ export default function StatsSection() {
           className="max-w-3xl mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight font-space-grotesk">
-            Do You Have the Full View?
+            Ready to Amplify Your Brand?
           </h2>
           <p className="text-xl text-white/80 leading-relaxed">
-            Research's ecosystem of data, emerging tech, AI and experts delivers the most complete and clear
-            understanding of consumer behavior that reveals new pathways to growth.
+            Our integrated approach combines influencer marketing, talent management, and premium content production 
+            to deliver campaigns that drive real engagement and measurable ROI.
           </p>
         </motion.div>
 

@@ -11,33 +11,33 @@ gsap.registerPlugin(ScrollTrigger)
 const processSteps = [
   {
     icon: ClipboardList,
-    title: "Research Design",
-    description: "Define objectives, methodology, and research framework",
+    title: "Discovery & Strategy",
+    description: "Understand your brand, goals, and target audience",
   },
   {
     icon: Code,
-    title: "Survey Programming",
-    description: "Develop and test survey instruments across platforms",
+    title: "Campaign Planning",
+    description: "Develop comprehensive campaign strategy and creative brief",
   },
   {
     icon: PlayCircle,
-    title: "Fieldwork Execution",
-    description: "Launch and monitor data collection operations",
+    title: "Content Creation",
+    description: "Produce engaging content and coordinate with influencers",
   },
   {
     icon: BarChart2,
-    title: "Data Processing",
-    description: "Clean, validate, and analyze collected data",
+    title: "Campaign Launch",
+    description: "Execute across platforms with real-time monitoring",
   },
   {
     icon: FileText,
-    title: "Insights Generation",
-    description: "Transform data into actionable business intelligence",
+    title: "Performance Analysis",
+    description: "Track metrics, engagement, and ROI throughout campaign",
   },
   {
     icon: CheckCircle,
-    title: "Final Delivery",
-    description: "Present findings with recommendations and next steps",
+    title: "Optimization & Reporting",
+    description: "Deliver insights and optimize for continuous improvement",
   },
 ]
 
@@ -78,7 +78,7 @@ export default function ProcessTimeline() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Our Process</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A streamlined approach from survey design to final decision
+            A proven approach from strategy to success—delivering campaigns that resonate
           </p>
         </motion.div>
 

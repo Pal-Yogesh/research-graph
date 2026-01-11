@@ -4,32 +4,32 @@ import { motion } from "framer-motion"
 import { Users, Award, Globe, TrendingUp } from "lucide-react"
 
 const expertise = [
-  { icon: Users, label: "FMCG Research", color: "from-primary to-accent" },
-  { icon: Award, label: "Healthcare Studies", color: "from-accent to-chart-3" },
-  { icon: Globe, label: "Technology Sector", color: "from-chart-3 to-chart-2" },
-  { icon: TrendingUp, label: "B2B Insights", color: "from-chart-2 to-primary" },
+  { icon: Users, label: "Influencer Network", color: "from-primary to-accent" },
+  { icon: Award, label: "Content Excellence", color: "from-accent to-chart-3" },
+  { icon: Globe, label: "Digital Strategy", color: "from-chart-3 to-chart-2" },
+  { icon: TrendingUp, label: "Brand Growth", color: "from-chart-2 to-primary" },
 ]
 
 const team = [
   {
-    name: "Leadership Team",
-    role: "Strategic Direction",
-    description: "Experienced leaders driving innovation in market research and analytics",
+    name: "Strategy Team",
+    role: "Campaign Planning & Execution",
+    description: "Creative strategists crafting compelling campaigns that connect brands with their target audiences",
   },
   {
-    name: "Research Experts",
-    role: "Methodology & Design",
-    description: "PhD-level researchers ensuring scientific rigor in every project",
+    name: "Influencer Relations",
+    role: "Partnership Management",
+    description: "Dedicated specialists managing relationships with 1000+ content creators across all platforms",
   },
   {
-    name: "Data Scientists",
-    role: "Analytics & Insights",
-    description: "Advanced analytics specialists turning data into actionable intelligence",
+    name: "Production Team",
+    role: "Content Creation",
+    description: "Award-winning producers, directors, and editors creating premium edutainment content",
   },
   {
-    name: "Field Operations",
-    role: "Execution & Quality",
-    description: "Dedicated professionals ensuring flawless data collection worldwide",
+    name: "Talent Management",
+    role: "Creator Development",
+    description: "Expert managers nurturing and growing the careers of digital content creators",
   },
 ]
 
@@ -46,10 +46,10 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">About Research</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">About Us</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We are a leading market research company specializing in transforming complex data into clear, actionable
-              insights that drive business success across industries and markets.
+              We are a full-service digital marketing agency specializing in influencer collaborations, talent management, 
+              and premium edutainment content production that drives authentic engagement and measurable results.
             </p>
           </motion.div>
         </div>
@@ -68,16 +68,18 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 font-space-grotesk">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded with a vision to revolutionize market research, Research has grown into a trusted partner
-                  for businesses seeking data-driven decision-making capabilities.
+                  Born from a passion for authentic storytelling and digital innovation, we've built a digital marketing 
+                  agency that bridges the gap between brands and audiences in meaningful ways.
                 </p>
                 <p>
-                  We combine advanced technology with deep industry expertise to deliver comprehensive research
-                  solutions that span survey programming, data processing, analytics, and field management.
+                  We specialize in four core areas: creating powerful Digital IPs, orchestrating impactful Influencer 
+                  Marketing campaigns, managing talented content creators, and producing high-quality Edutainment content 
+                  that educates while it entertains.
                 </p>
                 <p>
-                  Our commitment to quality, innovation, and client success has made us a preferred choice for companies
-                  looking to understand their markets and customers better.
+                  Our success is built on genuine relationships—with our clients, our network of 1000+ influencers, 
+                  and the talented creators we represent. We believe in the power of authentic connections and 
+                  content that resonates.
                 </p>
               </div>
             </motion.div>
@@ -93,9 +95,9 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     { value: "5+", label: "Years Experience" },
-                    { value: "500+", label: "Projects Delivered" },
-                    { value: "50+", label: "Clients" },
-                    { value: "100+", label: "Expert Team" },
+                    { value: "500+", label: "Campaigns Delivered" },
+                    { value: "200+", label: "Brand Partners" },
+                    { value: "1000+", label: "Influencer Network" },
                   ].map((stat, index) => (
                     <motion.div
                       key={stat.label}
@@ -130,7 +132,7 @@ export default function AboutPage() {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Our Team</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Experienced professionals dedicated to delivering excellence in market research
+              Creative professionals dedicated to delivering excellence in digital marketing and content creation
             </p>
           </motion.div>
 
@@ -167,9 +169,9 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Industry Expertise</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-space-grotesk">Our Expertise</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Deep knowledge across multiple sectors and industries
+              Comprehensive digital marketing capabilities across all major platforms
             </p>
           </motion.div>
 

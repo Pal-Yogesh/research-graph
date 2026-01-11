@@ -6,30 +6,30 @@ import { Target, Zap, Shield, Users } from "lucide-react"
 const pillars = [
   {
     icon: Target,
-    title: "Quality Data",
+    title: "Authentic Connections",
     description:
-      "Deliver the highest quality data through rigorous methodology, quality controls, and expert validation at every stage of the research process.",
+      "Create genuine relationships between brands and audiences through authentic storytelling and strategic influencer partnerships that resonate and inspire.",
     color: "from-primary to-accent",
   },
   {
     icon: Zap,
-    title: "Faster Insights",
+    title: "Creative Excellence",
     description:
-      "Leverage advanced technology and efficient processes to provide rapid turnaround without compromising on quality or accuracy.",
+      "Deliver exceptional content that captivates, educates, and entertains. Our production standards ensure every piece reflects quality and innovation.",
     color: "from-accent to-chart-3",
   },
   {
     icon: Shield,
-    title: "Decision-Ready Outputs",
+    title: "Results-Driven Approach",
     description:
-      "Transform raw data into clear, actionable insights that directly support strategic decision-making and business growth.",
+      "Focus on measurable outcomes and ROI. Every campaign is optimized for performance with transparent reporting and continuous improvement.",
     color: "from-chart-3 to-chart-2",
   },
   {
     icon: Users,
-    title: "Global Reach",
+    title: "Talent First",
     description:
-      "Provide access to diverse markets and respondents across 50+ countries, ensuring comprehensive and representative insights.",
+      "Nurture and empower content creators, helping them grow their personal brands while maintaining authenticity and creative freedom.",
     color: "from-chart-2 to-primary",
   },
 ]
@@ -52,8 +52,8 @@ export default function MissionPage() {
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">Our Mission</h1>
             <p className="text-2xl text-muted-foreground leading-relaxed text-balance">
-              To empower businesses with reliable, actionable market intelligence through innovative research
-              methodologies and exceptional service delivery.
+              To revolutionize digital marketing by creating authentic connections between brands and audiences through 
+              innovative content, strategic influencer partnerships, and exceptional talent management.
             </p>
           </motion.div>
         </div>
@@ -116,13 +116,13 @@ export default function MissionPage() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-space-grotesk">Our Commitment</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              We are committed to maintaining the highest standards of research integrity, ethical practices, and client
-              confidentiality. Every project receives our full attention and expertise, regardless of size or scope.
+              We are committed to maintaining authenticity in every campaign, ethical partnerships with influencers and brands, 
+              and transparent communication. Every project receives our creative passion and strategic expertise, regardless of scale.
             </p>
             <div className="glass p-6 rounded-2xl">
               <p className="text-xl font-medium italic text-balance">
-                "Excellence is not an act, but a habit. We consistently deliver exceptional research that drives
-                meaningful business outcomes."
+                "Success in digital marketing isn't just about reach—it's about creating genuine connections that 
+                inspire action and build lasting brand loyalty."
               </p>
             </div>
           </motion.div>

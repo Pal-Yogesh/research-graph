@@ -57,7 +57,7 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-[1.1] text-balance font-space-grotesk"
             >
-              Turning Data Into <span className="block mt-2">Decisions</span>
+              Elevate Your Brand <span className="block mt-2">In The Digital Age</span>
             </motion.h1>
 
             {/* Subheading */}
@@ -67,7 +67,7 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed"
             >
-              Unlock powerful insights with cutting-edge survey programming, data processing, and analytics solutions
+              Your full-service digital marketing partner specializing in influencer collaborations, talent management, and premium content production
             </motion.p>
 
             {/* CTA Buttons */}
@@ -105,10 +105,10 @@ export default function Hero() {
               className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
             >
               {[
-                { value: "50K+", label: "Survey Responses" },
-                { value: "50+", label: "Global Markets" },
-                { value: "90%", label: "Client Satisfaction" },
-                { value: "500K+", label: "Data Points" },
+                { value: "500+", label: "Campaigns Launched" },
+                { value: "1000+", label: "Influencers Network" },
+                { value: "98%", label: "Client Satisfaction" },
+                { value: "50M+", label: "Total Reach" },
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}

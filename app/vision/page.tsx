@@ -55,8 +55,8 @@ export default function VisionPage() {
             className="glass p-12 rounded-3xl mb-12"
           >
             <p className="text-2xl md:text-3xl font-medium leading-relaxed text-balance">
-              To be the world's most trusted partner in transforming data into strategic decisions, empowering
-              businesses to thrive in an increasingly complex marketplace.
+              To be the leading digital marketing agency that sets the standard for authentic brand storytelling, 
+              innovative content creation, and meaningful influencer partnerships that drive real business growth.
             </p>
           </motion.div>
 
@@ -70,17 +70,17 @@ export default function VisionPage() {
               {
                 icon: Sparkles,
                 title: "Innovation",
-                description: "Leading with cutting-edge research methodologies",
+                description: "Pioneering new approaches in digital marketing and content",
               },
               {
                 icon: Eye,
-                title: "Clarity",
-                description: "Making complex data simple and actionable",
+                title: "Authenticity",
+                description: "Creating genuine connections that audiences trust",
               },
               {
                 icon: Sparkles,
                 title: "Impact",
-                description: "Driving measurable business outcomes",
+                description: "Delivering campaigns that drive measurable results",
               },
             ].map((item, index) => (
               <motion.div

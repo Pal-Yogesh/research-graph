@@ -19,27 +19,27 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-sm font-bold text-[oklch(0.60_0.12_195)] mb-4 uppercase tracking-wider">About Research</h2>
+            <h2 className="text-sm font-bold text-[oklch(0.60_0.12_195)] mb-4 uppercase tracking-wider">About Us</h2>
             <h3 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6 leading-tight font-space-grotesk">
-              Transforming Markets Through Data Intelligence
+              Redefining Digital Marketing Excellence
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Research Pvt Ltd is a leading market research company delivering reliable information for a true
-              understanding of Society, Markets, and People. We help organizations make better decisions through
-              comprehensive data analysis and insights.
+              We are a cutting-edge digital marketing agency specializing in influencer collaborations, talent management, 
+              and premium content production. Our mission is to help brands connect authentically with their audiences 
+              through innovative digital strategies.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Our expertise spans survey programming, data processing, field management, and market research support,
-              serving clients across 50+ global markets with unmatched precision and reliability.
+              With a network of 1000+ influencers, a roster of talented content creators, and state-of-the-art production 
+              facilities, we deliver campaigns that don't just reach audiences—they resonate with them.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
-                <div className="text-3xl font-bold gradient-text mb-2 font-space-grotesk">15+</div>
+                <div className="text-3xl font-bold gradient-text mb-2 font-space-grotesk">5+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div>
                 <div className="text-3xl font-bold gradient-text mb-2 font-space-grotesk">500+</div>
-                <div className="text-sm text-muted-foreground">Projects Delivered</div>
+                <div className="text-sm text-muted-foreground">Campaigns Delivered</div>
               </div>
             </div>
           </motion.div>
